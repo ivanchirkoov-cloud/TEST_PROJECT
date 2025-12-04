@@ -21,8 +21,5 @@ public class LoginTest extends BaseTest {
         loginPage.login("standard_user", "secret_sauce");
 
         assertTrue(productsPage.isPageLoaded(), "Register btn is not visible");
-
     }
-
 }
-
