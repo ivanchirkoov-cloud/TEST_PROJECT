@@ -8,7 +8,6 @@ import pages.ProductsPage;
 
 import java.time.Duration;
 
-
 public class BaseTest {
     WebDriver driver;
     LoginPage loginPage;
